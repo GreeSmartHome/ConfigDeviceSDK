@@ -1,0 +1,2 @@
+# ConfigDeviceSDK
+config devices
