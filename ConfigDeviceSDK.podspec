@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConfigDeviceSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A ConfigDeviceSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ConfigDeviceSDK/Classes/**/*'
-  s.vendored_frameworks = 'GRConfigSocket/Classes/GRConfigSocket.framework'
+#  s.source_files = 'ConfigDeviceSDK/Classes/**/*'
+  s.vendored_frameworks = 'GRConfigSocket/Framework/GRConfigSocket.framework'
   
   # s.resource_bundles = {
   #   'ConfigDeviceSDK' => ['ConfigDeviceSDK/Assets/*.png']

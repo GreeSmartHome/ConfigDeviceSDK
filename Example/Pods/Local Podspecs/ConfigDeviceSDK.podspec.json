@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ConfigDeviceSDK/Classes/**/*",
+  "vendored_frameworks": "GRConfigSocket/Framework/GRConfigSocket.framework",
   "dependencies": {
     "FMDB": [
 
