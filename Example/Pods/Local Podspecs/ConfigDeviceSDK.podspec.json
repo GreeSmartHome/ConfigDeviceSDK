@@ -1,9 +1,9 @@
 {
   "name": "ConfigDeviceSDK",
-  "version": "0.1.0",
-  "summary": "A short description of ConfigDeviceSDK.",
+  "version": "1.0.0",
+  "summary": "A ConfigDeviceSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/18578216982@163.com/ConfigDeviceSDK",
+  "homepage": "https://github.com/GreeSmartHome/ConfigDeviceSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "18578216982@163.com": "1049646716@qq.com"
   },
   "source": {
-    "git": "https://github.com/18578216982@163.com/ConfigDeviceSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/GreeSmartHome/ConfigDeviceSDK.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ConfigDeviceSDK/Classes/**/*"
+  "source_files": "ConfigDeviceSDK/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
 }

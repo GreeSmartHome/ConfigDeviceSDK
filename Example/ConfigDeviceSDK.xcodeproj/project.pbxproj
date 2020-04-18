@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02764C9DA1A20D09736DDDD7 /* Pods_ConfigDeviceSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F126BD3E031205DE586082 /* Pods_ConfigDeviceSDK_Example.framework */; };
-		0B7D638E57AB751A27E522C9 /* Pods_ConfigDeviceSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57739F5A2FC6F2CD632116 /* Pods_ConfigDeviceSDK_Tests.framework */; };
+		22AC581FE8C7FBF693194653 /* libPods-ConfigDeviceSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55011B5F0AF637F9AB18BAB9 /* libPods-ConfigDeviceSDK_Example.a */; };
+		525AAE31831009DF8E30815B /* libPods-ConfigDeviceSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7229DDD05684C0D738F9C733 /* libPods-ConfigDeviceSDK_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		20504440F9E74B34D31AD3EE /* Pods-ConfigDeviceSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDeviceSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-ConfigDeviceSDK_Example/Pods-ConfigDeviceSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		517A16A03C9E46EF2C690B1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55011B5F0AF637F9AB18BAB9 /* libPods-ConfigDeviceSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfigDeviceSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ConfigDeviceSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDeviceSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +60,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E57739F5A2FC6F2CD632116 /* Pods_ConfigDeviceSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDeviceSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7229DDD05684C0D738F9C733 /* libPods-ConfigDeviceSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfigDeviceSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A125EB738D8587C34E96E8 /* ConfigDeviceSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConfigDeviceSDK.podspec; path = ../ConfigDeviceSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		922563115DC43E5F1AC4B50A /* Pods-ConfigDeviceSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDeviceSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-ConfigDeviceSDK_Tests/Pods-ConfigDeviceSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5142570712C20D4AB66EE24 /* Pods-ConfigDeviceSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDeviceSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDeviceSDK_Tests/Pods-ConfigDeviceSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3F126BD3E031205DE586082 /* Pods_ConfigDeviceSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDeviceSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E982CC023D12624C374801D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F860DECFCFA9657AB36337E2 /* Pods-ConfigDeviceSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDeviceSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDeviceSDK_Example/Pods-ConfigDeviceSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				02764C9DA1A20D09736DDDD7 /* Pods_ConfigDeviceSDK_Example.framework in Frameworks */,
+				22AC581FE8C7FBF693194653 /* libPods-ConfigDeviceSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0B7D638E57AB751A27E522C9 /* Pods_ConfigDeviceSDK_Tests.framework in Frameworks */,
+				525AAE31831009DF8E30815B /* libPods-ConfigDeviceSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E3F126BD3E031205DE586082 /* Pods_ConfigDeviceSDK_Example.framework */,
-				7E57739F5A2FC6F2CD632116 /* Pods_ConfigDeviceSDK_Tests.framework */,
+				55011B5F0AF637F9AB18BAB9 /* libPods-ConfigDeviceSDK_Example.a */,
+				7229DDD05684C0D738F9C733 /* libPods-ConfigDeviceSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				AFD16714DF127553E7EABB97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFD16714DF127553E7EABB97 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ConfigDeviceSDK_Example/Pods-ConfigDeviceSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ConfigDeviceSDK/ConfigDeviceSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConfigDeviceSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfigDeviceSDK_Example/Pods-ConfigDeviceSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD07BCDFE089233E69D06F05 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,16 +1,25 @@
 PODS:
-  - ConfigDeviceSDK (0.1.0)
+  - ConfigDeviceSDK (1.0.0):
+    - FMDB
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
 
 DEPENDENCIES:
   - ConfigDeviceSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
 
 EXTERNAL SOURCES:
   ConfigDeviceSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ConfigDeviceSDK: f94b750e163d9e01bfce8d8f27b49cacbe7693b5
+  ConfigDeviceSDK: a9452a2910d502699cf25c9f99cd7f9cf3d4bd3b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
 
-PODFILE CHECKSUM: 2e436f5e2521ccf019163fc97e97630c825a6780
+PODFILE CHECKSUM: 16813b26e758a5e0efd3d1113b3c0854860d95b1
 
 COCOAPODS: 1.9.0
