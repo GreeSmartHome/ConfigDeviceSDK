@@ -1,0 +1,16 @@
+PODS:
+  - ConfigDeviceSDK (0.1.0)
+
+DEPENDENCIES:
+  - ConfigDeviceSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ConfigDeviceSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConfigDeviceSDK: f94b750e163d9e01bfce8d8f27b49cacbe7693b5
+
+PODFILE CHECKSUM: 2e436f5e2521ccf019163fc97e97630c825a6780
+
+COCOAPODS: 1.9.0

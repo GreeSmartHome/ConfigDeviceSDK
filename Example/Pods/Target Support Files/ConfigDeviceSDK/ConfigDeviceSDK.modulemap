@@ -1,0 +1,6 @@
+framework module ConfigDeviceSDK {
+  umbrella header "ConfigDeviceSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module GRConfigSocket {
+  umbrella header "GRConfigSocket.h"
+
+  export *
+  module * { export * }
+}
